@@ -51,7 +51,6 @@ const Login:React.FC<LoginProps> = ({toggleAuth}) => {
 
         {/* Right Section - Image */}
         <div className="hidden md:flex w-1/2 relative px-3 py-3 flex-col">
-          <h1>Welcome Back </h1>
           <img src={AuthImg} className="w-full h-full object-cover rounded-xl" alt="Background" />
         </div>
       </div>

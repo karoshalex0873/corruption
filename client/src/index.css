@@ -28,3 +28,10 @@
 .inputs{
   @apply w-full h-10 indent-4 bg-gray-100/20 rounded-md my-2
 }
+.heading {
+  @apply text-2xl font-bold text-acient tracking-wide font-serif capitalize;
+}
+
+.sub-heading {
+  @apply text-lg text-gray-500 mt-1 font-medium;
+}
